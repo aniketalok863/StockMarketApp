@@ -1,0 +1,58 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-form {
+  width: 80%;
+  margin-bottom: 20px; /* Add margin at the bottom of the form */
+}
+
+.signin-link {
+  align-self: flex-end; /* Align the sign-in link to the end (bottom) of the container */
+}
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px; 
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .signin-link {
+    margin-top: 20px; /* Adjust the margin to add space between the form and the link */
+  }
+  
+  .signin-link p {
+    text-align: center;
+  }
+  
+  .signin-link a:hover {
+    text-decoration: underline;
+  }
+  
